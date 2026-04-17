@@ -9,7 +9,7 @@ export default function Services() {
 
             <div className='my-10 grid  md:grid-cols-2 lg:grid-cols-3 gap-7'>
                 {cards.map((card , i) => (
-                    <Reveal direction='top' key={i} delay={i * 0.2}>
+                    <Reveal direction='top' key={i} delay={i * 0.3}>
                         <div className={`Special w-70 shadow-sky-700 shadow-[1px_5px_5px_1px] hover:shadow-[0_3px_25px_-] p-5 rounded-xl lg:mx-0 border-sky-400 border-2 flex flex-col items-center ${card.id === 3 ? "md:mx-[50%]" : ""}`}>
 
                             <span className='text-sky-400 text-4xl flex'>{card.icon}</span>

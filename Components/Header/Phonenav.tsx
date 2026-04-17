@@ -22,7 +22,7 @@ export default function Phonenav() {
                 <ul className='Special bg-gray-50 flex flex-col items-center rounded-md py-2 z-50'>
                     {navItems.map((item) => (
 
-                        <li key={item.id} className='myhover py-1'>
+                        <li key={item.id} className='myhover py-1 font-extralight myfont2'>
                             <a href={item.href} onClick={() => setopen(false)} >{item.title}</a>
                         </li>
 
