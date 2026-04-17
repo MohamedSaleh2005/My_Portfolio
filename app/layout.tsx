@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className=" scroll-smooth scrollbar-hide">
-<body className={`${roboto.className}`}>
+<body className={roboto.className}>
 
         {children}
 
