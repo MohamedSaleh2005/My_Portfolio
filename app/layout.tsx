@@ -12,7 +12,10 @@ const roboto = Montserrat ({
 
 export const metadata: Metadata = {
   title: "Saleh-Portfolio",
-  description: "My Portfolio app"
+  description: "My Portfolio app",
+  icons:{
+    icon:"/images.png"
+  }
 };
 
 export default function RootLayout({

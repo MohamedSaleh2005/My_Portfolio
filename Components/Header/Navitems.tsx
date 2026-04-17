@@ -6,7 +6,7 @@ export default function NavItems() {
         {navItems.map ((item) => (
 
           <li className='myhover' key={item.id}>
-            <a href={item.href}>{item.title}</a>
+            <a href={item.href} className='myfont2 font-extralight'>{item.title}</a>
           </li>
 
         ))}

@@ -7,6 +7,9 @@ body {
 .myfont {
   font-family: var(--font-Montserrat);
 }
+.myfont2{
+  font-family:sans-serif
+}
 
 /* Header */
 /* Nav hover */

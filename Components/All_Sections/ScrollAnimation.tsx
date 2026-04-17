@@ -13,6 +13,7 @@ export function Reveal({
   children,
   direction = "left",
   className = "",
+  delay,
 }: Props) {
   const variants = {
     left: { opacity: 0, x: -180 },
@@ -27,7 +28,7 @@ export function Reveal({
       initial={variants[direction]}
       whileInView={{ opacity: 1, x: 0, y: 0 }}
       viewport={{ once: false }}
-      transition={{ duration: 0.7, ease: "easeOut" }}
+      transition={{ duration: 0.7, ease: "easeOut" , delay}}
     >
       {children}
     </motion.div>

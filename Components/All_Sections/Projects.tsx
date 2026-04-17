@@ -12,8 +12,8 @@ export default function Projects() {
             <div className='my-10 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-7 m-auto'>
 
 
-                {projects.map((project) => (
-                            <Reveal direction="top" key={project.id}>
+                {projects.map((project , i) => (
+                            <Reveal direction="top" key={i} delay={i * 0.2}>
                     <div className={`group Special border-sky-400 border  rounded-xl relative overflow-hidden shadow-sky-400 shadow-[0_2px_20px_-] hover:scale-[1.02] transition-all duration-30 ${project.id === 3 ? "h-60 md:h-90 md:w-165 lg:w-90 lg:h-60" : "w-82 lg:w-90 h-60"}`}>
                             {/* Project Image */}
                             <Image

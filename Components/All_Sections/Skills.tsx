@@ -11,7 +11,7 @@ export default function Skills() {
             <div className='my-10 grid grid-cols-2 lg:grid-cols-4 gap-7'>
 
                 {skills.map((skill, i) => (
-                    <Reveal key={i} delay={i * 0.3}>
+                    <Reveal key={i} delay={i * 0.1}>
                         <div key={skill.id} className='Special Skl_Hover border border-sky-400 w-40 md:w-50 flex items-center gap-4 md:gap-7 px-3 py-2 rounded-lg cursor-pointer shadow-sky-700 shadow-[1px_1px_3px_1px] transition-all duration-300'>
                             <Image
                                 width={500}
