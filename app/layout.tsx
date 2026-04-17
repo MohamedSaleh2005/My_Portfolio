@@ -12,10 +12,7 @@ const roboto = Montserrat ({
 
 export const metadata: Metadata = {
   title: "Saleh-Portfolio",
-  description: "My Portfolio app",
-  icons:{
-    icon: "images.png"
-  }
+  description: "My Portfolio app"
 };
 
 export default function RootLayout({
@@ -24,9 +21,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className=" scroll-smooth">
-      <body  className={roboto.variable} >
-
+    <html lang="en" className=" scroll-smooth scrollbar-hide">
+<body className={`${roboto.className}`}>
 
         {children}
 

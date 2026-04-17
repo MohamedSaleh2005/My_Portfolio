@@ -8,7 +8,7 @@ export default function Skills() {
 
             <h2 className='myfont text-2xl m-auto'>My <span className='text-sky-400'>Skills</span></h2>
 
-            <div className='my-10 grid grid-cols-2 md:grid-cols-4 gap-7'>
+            <div className='my-10 grid grid-cols-2 lg:grid-cols-4 gap-7'>
 
                 {skills.map((skill, i) => (
                     <Reveal key={i} delay={i * 0.1}>

@@ -16,7 +16,7 @@ export default function HeroContent() {
       <h2>Hello, I'm</h2>
       <h1 className="text-2xl font-bold">Mohammed Saleh</h1>
       <h3>And I'm a{" "} <span className="text-sky-400">{text} <Cursor cursorStyle="|" /></span ></h3>
-      <p className="w-80 mt-2 md:w-120 font-sans font-semibold">I'm Mohamed Saleh, a Web Developer & Digital Marketer combining clean code  with smart digital strategies to grow brands online </p>
+      <p className="w-80 md:w-100 mt-2 lg:w-120 font-sans font-semibold">I'm Mohamed Saleh, a Web Developer & Digital Marketer combining clean code  with smart digital strategies to grow brands online </p>
 
 
       <div className="flex gap-3 mt-4">
@@ -27,7 +27,7 @@ export default function HeroContent() {
         ))}
       </div>
 
-      <a href="/Mohamed_Saleh_CV.pdf" download="Mohamed Saleh CV" className="My_Hover w-37" >Download CV</a>
+      <a href="/My_Cv.pdf" download="Mohamed Saleh CV" className="My_Hover w-37" >Download CV</a>
     </div>
   );
 }
